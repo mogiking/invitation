@@ -1,74 +1,184 @@
 {
-  ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-04ae84d6.js",
-    "src": ".svelte-kit/generated/nodes/0.js",
-    "isDynamicEntry": true,
+  "src/lib/images/svelte-logo.svg": {
+    "file": "_app/immutable/assets/svelte-logo-87df40b8.svg",
+    "src": "src/lib/images/svelte-logo.svg"
+  },
+  "src/lib/images/github.svg": {
+    "file": "_app/immutable/assets/github-1ea8d62e.svg",
+    "src": "src/lib/images/github.svg"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-latin-400-normal-e43b3538.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff": {
+    "file": "_app/immutable/assets/fira-mono-all-400-normal-1e3b098c.woff",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-8454f68e.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-5018d7d9.css",
+    "src": "src/routes/+page.css"
+  },
+  "src/routes/+page.js": {
+    "file": "_app/immutable/modules/pages/_page.js-dc85b7cd.js",
+    "src": "src/routes/+page.js",
+    "isEntry": true,
     "imports": [
-      "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
+      "__page-da46b06b.js"
     ]
   },
-  ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-eb604b7f.js",
-    "src": ".svelte-kit/generated/nodes/1.js",
+  "docs/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-58272f47.js",
+    "src": "docs/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+layout.svelte"
+    ]
+  },
+  "docs/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-9db42f7b.js",
+    "src": "docs/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-da46b06b.js",
+      "src/routes/+page.svelte"
+    ]
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "_app/immutable/components/pages/about/_page.svelte-32f33307.js",
+    "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-66e9c307.js"
+    ]
+  },
+  "docs/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-17538bc4.js",
+    "src": "docs/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-be37661a.js",
-    "src": ".svelte-kit/generated/nodes/2.js",
+  "docs/generated/nodes/3.js": {
+    "file": "_app/immutable/chunks/3-572dc551.js",
+    "src": "docs/generated/nodes/3.js",
     "isDynamicEntry": true,
     "imports": [
-      "src/routes/+page.svelte"
+      "__page-57618ffe.js",
+      "src/routes/about/+page.svelte"
     ]
   },
-  "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-630d86e6.js",
-    "src": "src/routes/+page.svelte",
+  "src/routes/about/+page.js": {
+    "file": "_app/immutable/modules/pages/about/_page.js-44076d6b.js",
+    "src": "src/routes/about/+page.js",
     "isEntry": true,
     "imports": [
-      "_index-7f3551f2.js"
+      "__page-57618ffe.js"
     ]
   },
-  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
-    "file": "_app/immutable/components/layout.svelte-cd8f1078.js",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte",
-    "isEntry": true,
+  "__page-da46b06b.js": {
+    "file": "_app/immutable/chunks/_page-da46b06b.js"
+  },
+  "__page-57618ffe.js": {
+    "file": "_app/immutable/chunks/_page-57618ffe.js"
+  },
+  "_stores-3f240980.js": {
+    "file": "_app/immutable/chunks/stores-3f240980.js",
     "imports": [
-      "_index-7f3551f2.js"
+      "_index-66e9c307.js",
+      "_singletons-cea0c27e.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-03b3ffcb.js",
+    "file": "_app/immutable/components/error.svelte-471c82da.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-7f3551f2.js",
-      "_singletons-c1916556.js"
+      "_index-66e9c307.js",
+      "_stores-3f240980.js"
     ]
   },
-  "_singletons-c1916556.js": {
-    "file": "_app/immutable/chunks/singletons-c1916556.js",
+  "_singletons-cea0c27e.js": {
+    "file": "_app/immutable/chunks/singletons-cea0c27e.js",
     "imports": [
-      "_index-7f3551f2.js"
+      "_index-66e9c307.js"
     ]
   },
-  "_index-7f3551f2.js": {
-    "file": "_app/immutable/chunks/index-7f3551f2.js"
+  "src/routes/+layout.svelte": {
+    "file": "_app/immutable/components/pages/_layout.svelte-0f03e74e.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-66e9c307.js",
+      "_stores-3f240980.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-8454f68e.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/svelte-logo-87df40b8.svg",
+      "_app/immutable/assets/github-1ea8d62e.svg",
+      "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
+      "_app/immutable/assets/fira-mono-all-400-normal-1e3b098c.woff",
+      "_app/immutable/assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
+      "_app/immutable/assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
+      "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
+      "_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
+      "_app/immutable/assets/fira-mono-latin-400-normal-e43b3538.woff2"
+    ]
+  },
+  "_index-66e9c307.js": {
+    "file": "_app/immutable/chunks/index-66e9c307.js"
+  },
+  "src/routes/+page.svelte": {
+    "file": "_app/immutable/components/pages/_page.svelte-8224c05a.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-66e9c307.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-5018d7d9.css"
+    ]
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-7fd49d7a.js",
+    "file": "_app/immutable/start-63702998.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-7f3551f2.js",
-      "_singletons-c1916556.js"
+      "_index-66e9c307.js",
+      "_singletons-cea0c27e.js"
     ],
     "dynamicImports": [
-      ".svelte-kit/generated/nodes/0.js",
-      ".svelte-kit/generated/nodes/1.js",
-      ".svelte-kit/generated/nodes/2.js"
+      "docs/generated/nodes/0.js",
+      "docs/generated/nodes/1.js",
+      "docs/generated/nodes/2.js",
+      "docs/generated/nodes/3.js"
     ]
   }
 }
